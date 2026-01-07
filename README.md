@@ -236,6 +236,9 @@ El proyecto está en desarrollo continuo con mejoras en:
 - Comunicación inalámbrica
 - Modos de competencia
 
+### Nota sobre instalación
+Se ha intentado crear un ejecutable (.exe) para facilitar la instalación y ejecución rápida del sistema de visión, sin embargo, por limitaciones de tiempo no ha sido posible completar esta funcionalidad. De momento, la instalación requiere seguir los pasos manuales descritos en la sección "Comenzar Rápidamente".
+
 ---
 
 ## Notas Técnicas
