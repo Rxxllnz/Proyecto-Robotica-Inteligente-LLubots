@@ -1,0 +1,6 @@
+[submodule "Robotica_inteligente_sistemas_autonomos"]
+	path = Robotica_inteligente_sistemas_autonomos
+	url = https://github.com/Rxxllnz/Robotica_inteligente_sistemas_autonomos
+[submodule "RIySA_Prueba_Visi-n"]
+	path = RIySA_Prueba_Visi-n
+	url = https://github.com/SergioLugo91/RIySA_Prueba_Visi-n
