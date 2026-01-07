@@ -194,12 +194,8 @@ Contiene la solución completa de visión artificial en Python.
 
 ## Documentación Detallada
 
-Para información más específica, consulta los READMEs individuales:
+Para información más específica, consulta los READMEs individuales de cada submódulo incluyendo los repositorios de comunicación.
 
-- [**Documentación del Firmware**](Robotica_inteligente_sistemas_autonomos/Readme.md) - Arquitectura, construcción y operación de robots
-- [**Documentación de Visión**](RIySA_Prueba_Visi-n/README.md) - Detección de ArUcos y calibración de cámaras
-
----
 
 ## Autores
 
@@ -231,10 +227,9 @@ Para información más específica, consulta los READMEs individuales:
 **Estado**: Desarrollo activo
 
 El proyecto está en desarrollo continuo con mejoras en:
-- Algoritmos de control autónomo
 - Optimización de visión artificial
-- Comunicación inalámbrica
 - Modos de competencia
+- Integracion de interfaz grafica para control y monitoreo
 
 ### Nota sobre instalación
 Se ha intentado crear un ejecutable (.exe) para facilitar la instalación y ejecución rápida del sistema de visión, sin embargo, por limitaciones de tiempo no ha sido posible completar esta funcionalidad. De momento, la instalación requiere seguir los pasos manuales descritos en la sección "Comenzar Rápidamente".
@@ -265,6 +260,10 @@ Se ha intentado crear un ejecutable (.exe) para facilitar la instalación y ejec
 - Verificar conexión ESP-NOW entre Master y Slaves
 - Revisar bandera de rol (Master/Slave) en `Robot_code.ino`
 - Asegurar que TEST_MODE y SERIAL_STUB estén desactivados en operación normal
+- Confirmar que las direcciones MAC son correctas
+- Comprobar cada ID de robot
+- Comprobar alimentación y conexiones de hardware
+- Comprobar puertos WiFi 
 
 **Detección de ArUcos inconsistente:**
 - Revisar calibración de cámaras en `Calibracion/`
