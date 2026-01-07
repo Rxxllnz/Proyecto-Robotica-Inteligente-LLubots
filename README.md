@@ -43,10 +43,10 @@ Contiene el firmware y código embebido de los robots.
 Contiene la solución completa de visión artificial en Python.
 
 **Características principales:**
-- Detección de ArUcos (códigos QR visuales) para delimitar el ring y ubicar robots
+- Detección de Arucos (códigos QR visuales) para delimitar el ring y ubicar robots
 - Estereovisión con dos cámaras
 - Procesamiento con OpenCV
-- Comunicación con robots vía UDP/WiFi
+- Comunicación con robots vía TCP/WiFi
 - Calibración de cámaras incluida
 - Estimación de poses de objetos en tiempo real
 
@@ -66,7 +66,7 @@ Contiene la solución completa de visión artificial en Python.
 │        SISTEMA DE VISIÓN (Python + OpenCV)      │
 │   Detecta robots, ring y transmite comandos     │
 └────────────────────┬────────────────────────────┘
-                     │ UDP
+                     │ TCP
                      ▼
         ┌────────────────────────┐
         │   MASTER ESP8266       │
@@ -171,7 +171,7 @@ Contiene la solución completa de visión artificial en Python.
 - Detección en tiempo real de ArUcos para identificar robots
 - Procesamiento de estereovisión para profundidad
 - Estimación de poses en 3D
-- Comunicación UDP para enviar comandos
+- Comunicación TCP para enviar comandos
 
 ---
 
@@ -186,7 +186,7 @@ Contiene la solución completa de visión artificial en Python.
 
 ### Parámetros del Sistema:
 - **Frecuencia de visión**: 30 FPS (configurable)
-- **Puerto UDP**: 8888
+- **Puerto TCP**: 8888
 - **Baudrate Serial**: 115200
 - **Protocolo inalámbrico**: ESP-NOW
 
