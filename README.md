@@ -111,7 +111,7 @@ Contiene la solución completa de visión artificial en Python.
 
 1. **Clonar el repositorio con submódulos:**
    ```bash
-   git clone --recursive https://github.com/tu-usuario/Proyecto-Robotica-Inteligente-LLubots.git
+   git clone --recursive https://github.com/Rxxllnz/Proyecto-Robotica-Inteligente-LLubots.git
    cd Proyecto-Robotica-Inteligente-LLubots
    ```
 
@@ -147,7 +147,7 @@ Contiene la solución completa de visión artificial en Python.
    pip install opencv-python numpy
    ```
 
-3. **Calibrar cámaras:**
+3. **Calibrar cámaras (en ultimas versiones Matlab):**
    ```bash
    cd Calibracion
    python calibracion.py
@@ -228,7 +228,7 @@ Para información más específica, consulta los READMEs individuales de cada su
 
 El proyecto está en desarrollo continuo con mejoras en:
 - Optimización de visión artificial
-- Modos de competencia
+- Modos de competición
 - Integracion de interfaz grafica para control y monitoreo
 
 ### Nota sobre instalación
